@@ -21,6 +21,15 @@ const routes = [
     name: 'Account',
     component: loadPage('AccountPage'),
     beforeEnter: authGuard
+  },
+
+  {
+
+    path: '/apod',
+    name: 'Apod',
+    component: loadPage('PlanetPage'),
+    beforeEnter: authGuard
+
   }
 ]
 
